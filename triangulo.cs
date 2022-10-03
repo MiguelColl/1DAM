@@ -19,7 +19,7 @@ class Triangulo{
 				Console.WriteLine("Error: "+errorEncontrado.Message);
 				error=true;
 			}
-		}while((altura<=1)&&(error=true));
+		}while((altura<=1)&&(error==true));
 					
 		for(int contador=1;contador<altura;contador++)
 			asterisco+=2;
